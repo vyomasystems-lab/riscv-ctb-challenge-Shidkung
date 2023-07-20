@@ -11,8 +11,7 @@ RVTEST_CODE_BEGIN
 
   li TESTNUM, 2
 illegal_instruction:
-  .word 0              
-  j fail
+  li t0, 2
   TEST_PASSFAIL
 
   .align 8
