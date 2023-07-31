@@ -39,7 +39,7 @@ in this challenge ,there is an error on Z4 because in assembly code in preparati
 	li a3, 0xfec194e4
 
 There not have "z4" but it have "s4" So I fix it by change all "z4" to "s4"
-
+![Alt text](image.png)
 
 Challenge_Level1_loop:
 ---------------------------------------
@@ -75,6 +75,8 @@ and set loop counter in t5
 
     li t5, 3
 
+  ![Alt text](image-2.png)
+
 Challenge_Level1_illigal:
 ---------- 
     illegal_instruction:
@@ -100,7 +102,7 @@ TEST_PASSFAIL and i add this to code
     csrw mepc, t0
 
 for check fail test I think?
-
+![Alt text](image-3.png)
 # Challenge_Level2
 ------
  Challenge_Level2_instruction:
@@ -153,7 +155,7 @@ in this challenge i think it was about 32bits and 64bits and for riscv is run on
 
     rel_rv64c.compute: 10 
 this is cause of error because its run on 32bits but its have compute in 64bits
-
+![Alt text](image-4.png)
 Challenge_Level2_exception:
 --------
 in this challenge its not have config file for make and that it  i create new configs file and have 
@@ -170,7 +172,7 @@ in this challenge its not have config file for make and that it  i create new co
         ecause08: 0
         ecause09: 0
 I set exception-generate have 10 cause
-
+![Alt text](image-5.png)
 # Challenge_level3 
 
 for this challenge I cannot analyze it because my skill .
