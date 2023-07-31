@@ -186,11 +186,6 @@ exception-generation:
   ecause07: 0
   ecause08: 0
   ecause09: 0
-  ecause10: 0
-  ecause11: 0
-  ecause12: 0
-  ecause13: 0
-  ecause14: 0
 
 # ---------------------------------------------------------------------------------
 # Data Hazards
